@@ -1,0 +1,22 @@
+
+.card-tag {
+     background-color: rgb(255, 255, 255); font-weight: 600; opacity: 0.735; border: 1.5px solid black; width: fit-content; padding: 4px; border-radius: 20px; font-size: 15px; white-space: nowrap; line-height: 2.4;
+ }
+ 
+ 
+ .venuePopupTitle {
+   text-decoration: underline;
+   font-weight: bold;
+	font-size: 15px;
+ }
+ 
+ .map {
+	  position: fixed; top: 100px; z-index: 0; height: 900px; width: 100%;
+ }
+ 
+ @media (orientation: landscape) {
+	 .map {
+	  position: fixed; top: 100px; z-index: 0; height: 100%; width: 100%;
+ } 
+	 
+ }
